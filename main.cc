@@ -61,9 +61,9 @@ bool theme = true; // même utilité sur bool son;
 void FenAffi(); /*** AFFICHAGE DU JEU ***/
 /////////////////
 void FenUpInfo(); /***  MISE A JOUR DES INFOS ***/ // Pour gérer l'avancement dans le jeu
-int temps = 50;
-const int ScoreMax = 100;
-const int tempsBoss = 60;
+int temps = 25;
+const int ScoreMax = 40;
+const int tempsBoss = 50;
 int tempsSpecial = 5;
 int special = 0; // Ternaire: 0 -> bulletin seul; 1 -> ajout bonus&malus; 2 -> retire bonus&malus
 sf::Clock mclockt; // Clock pour mettre a jour le temps restant au joueur

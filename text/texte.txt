@@ -3,7 +3,7 @@ In order to be elected, Trump needs ballots -
 Help him by taking them on the ground -
 The more ballots he has, the stronger he is -
 INFO PLAYER -
-You'll need 100 points to join the boss -
+You'll need 40 points to join the boss -
 Each envelope gives 5 points -
 Every 5 seconds, malus and bonus envelopes appear -
 BONUS/MALUS : gives/removes speed and life -
