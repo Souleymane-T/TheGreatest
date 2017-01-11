@@ -61,10 +61,10 @@ bool theme = true; // même utilité sur bool son;
 void FenAffi(); /*** AFFICHAGE DU JEU ***/
 /////////////////
 void FenUpInfo(); /***  MISE A JOUR DES INFOS ***/ // Pour gérer l'avancement dans le jeu
-int temps = 50;
-const int ScoreMax = 100;
-const int tempsBoss = 60;
-int tempsSpecial = 5;
+int temps = 25;
+const int ScoreMax = 50;
+const int tempsBoss = 40;
+int tempsSpecial = 3;
 int special = 0; // Ternaire: 0 -> bulletin seul; 1 -> ajout bonus&malus; 2 -> retire bonus&malus
 sf::Clock mclockt; // Clock pour mettre a jour le temps restant au joueur
 /////////////////
@@ -222,7 +222,7 @@ void FenMenu()
         else if(sf::Keyboard::isKeyPressed(sf::Keyboard::H))
         {
             L1 = DIFFICILE;
-            tempsSpecial = 8;
+            tempsSpecial = 7;
             menub_fin = false;
             music1.stop();
         }
