@@ -62,15 +62,9 @@ void FenAffi(); /*** AFFICHAGE DU JEU ***/
 /////////////////
 void FenUpInfo(); /***  MISE A JOUR DES INFOS ***/ // Pour gérer l'avancement dans le jeu
 int temps = 25;
-<<<<<<< HEAD
 const int ScoreMax = 40;
 const int tempsBoss = 50;
 int tempsSpecial = 5;
-=======
-const int ScoreMax = 50;
-const int tempsBoss = 40;
-int tempsSpecial = 3;
->>>>>>> 0334a8229707340eed16f2c02599c9f4278afebc
 int special = 0; // Ternaire: 0 -> bulletin seul; 1 -> ajout bonus&malus; 2 -> retire bonus&malus
 sf::Clock mclockt; // Clock pour mettre a jour le temps restant au joueur
 /////////////////
